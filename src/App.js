@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 const item = {
 	grant_type: 'client_credentials',
-	client_id: 'NAGY2BGLqipZ5FYbnRz0iGG5yEN0wFBm',
-	client_secret: 'o4rrkm9gaxYVxUGH'
+	client_id: '12RBxvqhOAItsCK1RYiG6tGyBuGWEDkV',
+	client_secret: 'MXplqvBJrmDPA2Yg'
 }
 const toUrlEncoded = (obj) =>
 	Object.keys(obj).map((k) => encodeURIComponent(k) + '=' + encodeURIComponent(obj[k])).join('&')
